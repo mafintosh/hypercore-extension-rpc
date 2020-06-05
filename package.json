@@ -7,7 +7,11 @@
     "protocol-buffers-encodings": "^1.1.0"
   },
   "devDependencies": {
-    "hypercore-protocol": "^8.0.0"
+    "hypercore-protocol": "^8.0.0",
+    "protocol-buffers": "^4.1.2"
+  },
+  "scripts": {
+    "protobuf": "protocol-buffers schema.proto -o messages.js"
   },
   "repository": {
     "type": "git",
