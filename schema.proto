@@ -1,0 +1,11 @@
+message Request {
+  optional uint64 id = 1;
+  required string command = 2;
+  optional bytes value = 3;
+}
+
+message Response {
+  optional uint64 id = 1;
+  optional string error = 2;
+  optional bytes value = 3;
+}

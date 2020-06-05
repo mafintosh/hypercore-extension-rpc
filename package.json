@@ -1,0 +1,22 @@
+{
+  "name": "hypercore-extension-rpc",
+  "version": "0.0.0",
+  "description": "Simple extension message to implement a custom duplex RPC protocol",
+  "main": "index.js",
+  "dependencies": {
+    "protocol-buffers-encodings": "^1.1.0"
+  },
+  "devDependencies": {
+    "hypercore-protocol": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/hypercore-extension-rpc.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/hypercore-extension-rpc/issues"
+  },
+  "homepage": "https://github.com/mafintosh/hypercore-extension-rpc"
+}
